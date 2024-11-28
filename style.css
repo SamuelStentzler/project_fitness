@@ -10,3 +10,44 @@ body {
     background-repeat: no-repeat;
     color: white;
 }
+
+.nav {
+    position: absolute;
+    top: 50px;
+    left: 100px;
+    font-size: 30px;
+    display: flex;
+    gap: 30px;
+}
+
+.tittle {
+    position: absolute;
+    left: 100px;
+    top: 50%;
+    transform: translateY(-70%);
+    font-size: 60px;
+    line-height: 0.8;
+}
+
+.botao {
+    position: absolute;
+    display: flex;
+    gap: 10px;
+    bottom: 100px;
+    left: 100px;
+}
+
+.botao button {
+    background-color: aqua;
+}
+
+.buttons {
+    position: absolute;
+    width: 10px;
+    top: 250px;
+    right: 100px;
+}
+
+.buttons img {
+    width: 30px;
+}
