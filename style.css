@@ -5,14 +5,19 @@
 }
 
 body {
+    height: 100vh;
+    margin: 0;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#home {
     background-image: url('img/backgroundimg.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     height: 100vh;
     margin: 0;
-    color: white;
-    font-family: 'Montserrat', sans-serif;
 }
 
 .nav {
@@ -28,9 +33,11 @@ body {
 .active {
     color: inherit;
     text-decoration: underline;
+    text-decoration-skip-ink: auto;
     text-decoration-color: rgb(0, 204, 255);
     text-decoration-thickness: 2px;
     text-underline-offset: 10px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 a {
