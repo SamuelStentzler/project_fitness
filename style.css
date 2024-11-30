@@ -48,7 +48,7 @@ a {
 .nav a:hover {
     border: none;
     font-size: 31px;
-    transition: 0.5s;
+    transition: 0.3s;
 }
 
 .tittle {
@@ -85,7 +85,7 @@ a {
 
 .container button:hover {
     background-color: rgb(0, 160, 200);
-    transition: 0.3s;
+    transition: 0.2s;
 }
 
 .arrow {
